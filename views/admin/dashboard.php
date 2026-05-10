@@ -115,6 +115,7 @@ $user_name = isset($_SESSION['user_name']) ? htmlspecialchars($_SESSION['user_na
             <p class="nav-label">Core</p>
             <a href="dashboard.php" class="active"><i class="ti ti-chart-pie"></i> <span>Dashboard</span></a>
             <a href="manage_events.php"><i class="ti ti-calendar-event"></i> <span>Events</span></a>
+            <a href="manage_packages.php"><i class="ti ti-packages"></i> <span>Packages</span></a> <!-- Added Package Option -->
             <a href="manage_vendors.php"><i class="ti ti-building-store"></i> <span>Vendors</span></a>
             
             <p class="nav-label">Operations</p>
@@ -190,6 +191,13 @@ $user_name = isset($_SESSION['user_name']) ? htmlspecialchars($_SESSION['user_na
                     <div>
                         <p style="font-weight:700; font-size:14px;">Add New Event</p>
                         <p style="font-size:11px; color:var(--slate-500);">Launch new campaign</p>
+                    </div>
+                </a>
+                <a href="manage_packages.php" class="action-link"> <!-- Added Add Package Quick Action -->
+                    <div class="action-icon"><i class="ti ti-box-padding"></i></div>
+                    <div>
+                        <p style="font-weight:700; font-size:14px;">Add Package</p>
+                        <p style="font-size:11px; color:var(--slate-500);">Create event pricing</p>
                     </div>
                 </a>
                 <a href="manage_bookings.php" class="action-link">
