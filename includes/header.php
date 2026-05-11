@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <!-- Dynamic Title -->
-    <title><?php echo isset($page_title) ? $page_title . " | EventPro" : "EventPro - Premium Event Management"; ?></title>
+    <!-- Dynamic Title (Updated Brand Name) -->
+    <title><?php echo isset($page_title) ? $page_title . " | AT Royal Events" : "AT Royal Events - Premium Event Management"; ?></title>
 
     <!-- 1. Google Fonts: Inter for UI & Playfair Display for Headings -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
@@ -62,8 +62,8 @@
         }
     </style>
 
-    <!-- 4. Your Custom Stylesheet -->
-    <link rel="stylesheet" href="<?php echo SITEURL; ?>assets/css/style.css">
+    <!-- 4. Custom Stylesheet -->
+    <link rel="stylesheet" href="<?php echo defined('SITEURL') ? SITEURL : ''; ?>assets/css/style.css">
 
 </head>
 <body>
